@@ -131,7 +131,8 @@ main {
     color: #0E0E0EB2;
 
 }
-.vision-of-future-end{
+.vision-of-future-end{  
+    /* position: relative; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,6 +166,7 @@ margin: 12px 0 22px 0;
     
 }
 .learn-more-one{
+    
     color: #FFF;
 
     font-size: 16px;
@@ -183,6 +185,7 @@ margin: 12px 0 22px 0;
     color: #5490F5;
 }
 .learn-more-second{
+    margin-top: 25px;
     color: #FFF;
 
     font-size: 16px;
@@ -194,6 +197,7 @@ margin: 12px 0 22px 0;
     border-radius: 8px;
     transition: .3s;
     cursor: pointer;
+    /* position: absolute; */
 }
 .learn-more-second:hover{
     border: 1px solid #006A50;
@@ -201,6 +205,7 @@ margin: 12px 0 22px 0;
     color: #006A50;
 }
 .learn-more-third{
+    margin-top: 25p;
     color: #FFF;
 
     font-size: 16px;
