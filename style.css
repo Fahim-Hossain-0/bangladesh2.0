@@ -336,6 +336,8 @@ transition: .3s;
     color: white;
     color: #006A50;
     background: #C6E4D6 ;
+    border: 1px solid
+    #006A50;
 }
 .donate-today-box2 p{
     text-align: center;
@@ -350,6 +352,8 @@ transition: .3s;
     font-weight: 700;
     background:#C6E4D6;
     color:#006A50 ;
+    border: 1px solid
+    #006A50;
 
 }
 .donate-today-input{
@@ -381,11 +385,123 @@ color: #0E0E0E4D;
     font-size: 18px;
     font-weight: 600;
     transition: .3s;
+    cursor: pointer;
 }
 .donate-today-input button:hover{
     background: #C6E4D6;
     color: #006A50;
     border: 1px solid #006A50;
+
+
+}
+.Subscribe-Newsletter{
+    margin-top: 120px;
+}
+.Subscribe-Newsletter-container{
+    text-align: center;
+    border-radius: 24px;
+background: #C6E4D6;
+padding: 80px 100px;
+}
+.Subscribe-Newsletter-container h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.Subscribe-Newsletter-container p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0E0E0EB2;
+    margin: 16px 0 24px 0;
+}
+.Subscribe-Newsletter-input{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center ;
+}
+.Subscribe-Newsletter-input input{
+    /* margin: 0; */
+    /* padding: 0; */
+    /* position: relative   ; */
+    border: none;
+    /* text-align: center  ; */
+    border-radius: 8px 0px 0px 8px;
+background: #FFF;
+/* display: flex; */
+width: 600px;
+padding: 18px 40px;
+/* flex-direction: column; */
+/* align-items: flex-start; */
+/* gap: 24px; */
+border: none;
+} 
+input::placeholder{
+    color: #0E0E0E4D;
+}
+.Subscribe-Newsletter-input button{
+
+    /* margin: 0; */
+    /* padding: 0; */
+    /* position: relative; */
+    color:   #FFF;
+/* font-family: "Fira Sans"; */
+font-size: 18px;
+/* font-style: normal; */
+font-weight: 600;
+/* line-height: normal; */
+/* display: flex; */
+padding: 17px 34px;
+/* justify-content: center; */
+/* align-items: center; */
+/* gap: 48px; */
+border-radius: 0px 8px 8px 0px;
+background: #006A50; 
+border:1px solid transparent; 
+cursor: pointer;
+transition: .3s;  
+}
+/* .Subscribe-Newsletter-input input::placeholder{
+    color: #0E0E0E4D; */
+
+
+.Subscribe-Newsletter-input button:hover{
+    background:#C6E4D6;
+    border: 1px solid #006A50;
+    color: #006A50;
+}
+.footer{
+    background: white;
+    text-align: center;
+    margin: 120px 0 0 0;
+    padding: 50px 0;
+
+
+}
+.footer h2{
+    color: #0E0E0E;
+/* font-family: "Fira Sans"; */
+font-size: 32px;
+/* font-style: normal; */
+font-weight: 700;
+/* line-height: normal; */
+}
+hr{
+    margin: 20px auto;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    width: 1122px;
+height: 1px;
+background: rgba(14, 14, 14, 0.10);
+    border: none;
+
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
 
 }
 
