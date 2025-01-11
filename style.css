@@ -105,6 +105,58 @@ main {
 
 .banner-right {}
 
+.Pillars-of-Bangladesh{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-top: 80px;
+}
+.Pillars-of-Bangladesh h1{
+    color: #0E0E0E;
+    /* font-family: "Fira Sans"; */
+    font-size: 40px;
+    /* font-style: normal; */
+    font-weight: 700;
+    /* line-height: normal; */
+    margin-bottom: 32px;
+}
+.Pillars-of-Bangladesh-container{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 24px;
+}
+.Pillars-of-Bangladesh-container{
+    
+}
+.Pillars-of-Bangladesh-box{
+    padding: 24px;
+    background: white;
+    border-radius: 16px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: #FFF;
+}
+.Pillars-of-Bangladesh-box img{}
+.Pillars-of-Bangladesh-box h6{
+    margin: 24px 0 15px 0;
+    color: rgba(14, 14, 14, 0.80);
+/* font-family: "Fira Sans"; */
+font-size: 20px;
+/* font-style: normal; */
+font-weight: 700;
+/* line-height: normal; */
+}
+.Pillars-of-Bangladesh-box p{
+    color: rgba(14, 14, 14, 0.70);
+/* font-family: "Fira Sans"; */
+font-size: 16px;
+/* font-style: normal; */
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+
 .vision-of-future{
     margin-top: 80px;
     display: flex;
@@ -165,6 +217,40 @@ margin: 12px 0 22px 0;
 .vision-of-future-end-container button:hover{
     
 }
+.chief-adviser{
+ /* margin-top: 40px;
+ background-image: url(assets/quote-bg.png);
+ background-repeat: no-repeat;
+background-size: cover; */
+
+}
+.chief-adviser-container{   
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 25px 24px, top left;
+    padding: 48px 24px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    margin-top: 32px;
+    margin-bottom: 80
+}
+.chief-adviser-container p{
+    color: rgba(14, 14, 14, 0.80);
+    /* font-family: "Fira Sans"; */
+    font-size: 16px;
+    /* font-style: normal; */
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.chief-adviser-container h6{
+    color: rgba(14, 14, 14, 0.80);
+    /* font-family: "Fira Sans"; */
+    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+    margin: 12px 0 5px 0;
+}
 .learn-more-one{
     
     color: #FFF;
@@ -205,7 +291,7 @@ margin: 12px 0 22px 0;
     color: #006A50;
 }
 .learn-more-third{
-    margin-top: 25p;
+    margin-top: 25px;
     color: #FFF;
 
     font-size: 16px;
@@ -224,7 +310,7 @@ margin: 12px 0 22px 0;
     color: #FFC239;
 }
 .recent-news{
-    margin-top: 120px;
+    margin-top: 80px;
 }
 .recent-news-text{}
 .recent-news-text h1{
@@ -297,7 +383,7 @@ transition: .3s;
     color: #006A50;
 }
 .donate-today{
-    margin-top: 110px;
+    margin-top: 80px;
     text-align: center;
 }
 .donate-today h4{
@@ -395,7 +481,7 @@ color: #0E0E0E4D;
 
 }
 .Subscribe-Newsletter{
-    margin-top: 120px;
+    margin-top: 100px;
 }
 .Subscribe-Newsletter-container{
     text-align: center;
@@ -472,7 +558,7 @@ transition: .3s;
 .footer{
     background: white;
     text-align: center;
-    margin: 120px 0 0 0;
+    margin: 80px 0 0 0;
     padding: 50px 0;
 
 
