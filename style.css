@@ -289,5 +289,103 @@ color: white;
 font-size: 18px;
 font-weight: 600;
 border: 1px solid transparent;
+transition: .3s;
+}
+.hero-box-text button:hover{
+    background: transparent;
+    border: 1px solid #006A50;
+    color: #006A50;
+}
+.donate-today{
+    margin-top: 110px;
+    text-align: center;
+}
+.donate-today h4{
+    font-size: 40px;
+    font-weight: 700;
+}
+.donate-today p{
+    font-size: 16px;
+    font-weight:400;
+    line-height: 24px;
+    color: #0E0E0EB2;
+    margin: 24px 0 
+    32px 0;
+}
+.donate-today-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.donate-today-box1 p{
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: white;
+    padding: 40px;
+    cursor: pointer;
+    transition: .3s;
+    color: #0E0E0ECC;
+    font-size: 40px;
+    font-weight: 700;
+}
+.donate-today-box1 p:hover{
+    color: white;
+    color: #006A50;
+    background: #C6E4D6 ;
+}
+.donate-today-box2 p{
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    /* background: white; */
+    padding: 40px;
+    cursor: pointer;
+    transition: .3s;
+    color: #0E0E0ECC;
+    font-size: 40px;
+    font-weight: 700;
+    background:#C6E4D6;
+    color:#006A50 ;
+
+}
+.donate-today-input{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.donate-today-input input{
+    width: 1024px;
+    text-align: center;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: #FFF;
+padding: 20px 40px;
+border: none;
+color: #0E0E0E4D;
+
+}
+.donate-today-input button{
+    width: 12%;
+    padding: 18px 34px;
+    background: #006A50;
+    color: #C6E4D6;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .3s;
+}
+.donate-today-input button:hover{
+    background: #C6E4D6;
+    color: #006A50;
+    border: 1px solid #006A50;
+
 }
 
